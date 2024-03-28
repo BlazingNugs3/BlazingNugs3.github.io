@@ -19,12 +19,10 @@
     <h1>
         <p>This website will be a collection of games and activities that hopefully make a good website</p>
     </h1>
-    <form action="gameone.html">
-        <button id="entergameone" type="submit">
-            Enter Game One
-        </button>
-        <audio id="audio" preload="auto" src="howdyhowyoudoin.mp3" type="audio/mp3"></audio> -->
-    </form>
+    <button id="entergameone">
+        Enter Game One
+    </button>
+    <audio id="audio" preload="auto" src="howdyhowyoudoin.mp3" type="audio/mp3"></audio>
 
     <script>
         const entergameone = document.getElementById('entergameone');
@@ -32,6 +30,9 @@
 
         entergameone.addEventListener('click', function () {
             audio.play();
+            setTimeout(function () {
+                window.location.href = 'gameone.html';
+            }, 2000);
         });
     </script>
 </body>
