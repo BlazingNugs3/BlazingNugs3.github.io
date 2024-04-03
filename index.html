@@ -9,36 +9,35 @@
             padding: 10px 20px;
             color: rgb(255, 255, 255);
         }
-		        #entergametwo {
+        #entergametwo {
             font-size: 30px;
             background-color: darkred;
             padding: 10px 20px;
             color: rgb(255, 255, 255);
         }
     </style>
-    <h1>This is the BEST website</h1>
-    <link rel="stylesheet" type="text/css" href="htmlsite.css">
 </head>
 
 <body>
+    <h1>This is the BEST website</h1>
 
-    <h1>
-        <p>This website will be a collection of games and activities that hopefully make a good website</p>
-    </h1>
+    <p>This website will be a collection of games and activities that hopefully make a good website</p>
+
     <button id="entergameone">
         Enter snake
     </button>
-	<p>
+	
 	<button id="entergametwo">
         Enter game two
     </button>
-    <audio id="audio" preload="auto" src="howdyhowyoudoin.mp3" type="audio/mp3"></audio>
+
+    <audio id="audio" preload="auto" src="howdyhowyoudoin.mp3" type="audio/mpeg" alt="Audio"></audio>
 
     <script>
         const entergameone = document.getElementById('entergameone');
-        const audio = document.getElementById('audio');
         const entergametwo = document.getElementById('entergametwo');
         const audio = document.getElementById('audio');
+        
         entergameone.addEventListener('click', function () {
             audio.play();
             setTimeout(function () {
