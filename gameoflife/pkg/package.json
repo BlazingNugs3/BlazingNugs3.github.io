@@ -1,0 +1,19 @@
+{
+  "name": "gameoflife",
+  "collaborators": [
+    "BlazingNugs3 <113144693+BlazingNugs3@users.noreply.github.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "gameoflife_bg.wasm",
+    "gameoflife.js",
+    "gameoflife_bg.js",
+    "gameoflife.d.ts"
+  ],
+  "module": "gameoflife.js",
+  "types": "gameoflife.d.ts",
+  "sideEffects": [
+    "./gameoflife.js",
+    "./snippets/*"
+  ]
+}
