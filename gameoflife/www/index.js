@@ -1,6 +1,6 @@
 import * as wasm from "gameoflife";
 
-import { Universe } from "wasm-game-of-life";
+import { Universe } from "gameoflife";
 
 const pre = document.getElementById("game-of-life-canvas");
 const universe = Universe.new();
@@ -11,5 +11,5 @@ const renderLoop = () => {
   
     requestAnimationFrame(renderLoop);
   };
-  
+
   requestAnimationFrame(renderLoop);
