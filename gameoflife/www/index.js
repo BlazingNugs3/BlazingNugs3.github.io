@@ -2,6 +2,7 @@ import * as wasm from "gameoflife";
 
 import { Universe } from "gameoflife";
 
+const fpsDisplay = document.getElementById("fps-display");
 const pre = document.getElementById("game-of-life-canvas");
 const universe = Universe.new();
 let fps = 0;
