@@ -20,16 +20,13 @@
 </head>
 
 <body>
-    <h1>This is the BEST website</h1>
-
-    <p>This website will be a collection of games and activities that hopefully make a good website</p>
 
     <button id="entergameone">
-        Enter snake
+       snake
     </button>
 	
 	<button id="entergametwo">
-        Enter game two
+        conway's game of life
     </button>
 
     <audio id="audio" preload="auto" src="howdyhowyoudoin.mp3" type="audio/mpeg" alt="Audio"></audio>
@@ -43,14 +40,14 @@
             audio.play();
             setTimeout(function () {
                 window.location.href = 'snake.html';
-            }, 5000);
+            }, 4000);
         });
 
         entergametwo.addEventListener('click', function () {
             audio.play();
             setTimeout(function () {
                 window.location.href = './gameoflife/www/dist/index.html';
-            }, 5000);
+            }, 4000);
         });
     </script>
 </body>
